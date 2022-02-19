@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.SpringBootMDCDemo.model.Employee;
 import com.example.SpringBootMDCDemo.service.EmployeeService;
 
-@RestController
+@RestController("/api")
 public class EmployeeController {
 
 	private static final Logger LOGGER =LoggerFactory.getLogger(EmployeeController.class);

@@ -18,7 +18,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 @Component
-@Data
 @EqualsAndHashCode(callSuper = false)
 public class UniqueIdFilter extends OncePerRequestFilter {
 
